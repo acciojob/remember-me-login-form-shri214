@@ -19,7 +19,7 @@ form.addEventListener("submit", function(event){
 
 	var username = document.querySelector("#username").value;
 	var password = document.querySelector("#password").value;
-	var remember = document.querySelector("#remember").checked;
+	var remember = document.querySelector("#checkbox").checked;
 
 	if(remember){
 		// save details to local storage
